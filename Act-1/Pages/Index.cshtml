@@ -1,27 +1,48 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "My Portfolio";
 }
 
-<div class="text-center"> 
-    <h1 class="display-4">My Portfolio</h1> 
+<link rel="stylesheet" href="~/css/portfolio.css" />
+
+<div class="pic">
+
+    <div class="face">
+        <img src="~/images/bike.jpg" />
+    </div>
+
+    <div class="text">       
+        <h3>Learner/UX Designer</h3>
+        <p>I enjoy learning more about technology and how it works.<br /> I do love to design and edits </p>
+    </div>
 </div>
 
-<h1>Personal Information</h1>
+<div class="projects">
+    <h2>My Projects</h2>
+    <p></p>
 
-<div>
-    <h4>About Me</h4>
-    <p>I am 21 year old, and currently Bachelor Science in Information Technology at Asian College of Technology.</p>
+    <div class="row">
+
+        <div class="box">
+            <h4>The Hangman</h4>
+            <p class="date">11/02/25</p>
+            <p class="tag">https://github.com/Dave-Patatag/Hangman.git</p>
+        </div>
+
+        <div class="box">
+            <h4>Flashcard</h4>
+            <p class="date">10/20/25</p>
+            <p class="tag">https://github.com/Dave-Patatag/FlashCard-ML.git</p>
+        </div>
+
+        <div class="box">
+            <h4>Mauiverter</h4>
+            <p class="date">12/04/25</p>
+            <p class="tag">https://github.com/Dave-Patatag/Maui-Converter.git</p>
+        </div>
+
+    </div>
 </div>
 
-<div>
-    <h4>Address</h4>
-    <h6>Currently lives at Sitio Pangpang, San Isidro, Talisay City Cebu</h6>
-</div>
-
-<div>
-    <h4>Contact</h4>
-    <h6>09149347026</h6>
-</div>
 
